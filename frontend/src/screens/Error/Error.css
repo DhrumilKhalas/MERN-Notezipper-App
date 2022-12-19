@@ -1,0 +1,121 @@
+@media only screen and (min-width:250px) and (max-width:480px) {
+    .errormain{
+        min-height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 50px;
+        /* background-color: pink; */
+        text-align: center;
+    }
+    .err1{
+        font-weight: bold;
+    }
+    .err31{
+        font-size: small;
+    }
+    .err2{
+        margin-top: 10px;
+    }
+    .err32{
+        font-size: small;
+        margin-top: 10px;
+    }
+    .err3{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+    .errormain{
+        /* background-color: teal; */
+        min-height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        /* margin-top: 50px; */
+        /* background-color: pink; */
+        text-align: center;
+    }
+    .err1{
+        font-weight: bold;
+        font-size: 35px;
+    }
+    .err2{
+        font-size:20px;
+    }
+    .err3{
+        /* margin-top: 30px; */
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .errormain{
+       /* background-color: pink; */
+       min-height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        /* margin-top: 50px; */
+        /* background-color: pink; */
+        text-align: center;
+    }
+    .err1{
+        font-weight: bold;
+        font-size: 50px;
+    }
+    .err2{
+        font-size:30px;
+    }
+    .err3{
+        /* margin-top: 30px; */
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width:1025px) {
+    .errormain{
+        min-height: 90vh;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         gap: 10px;
+         width: 96%;
+         margin-left: 2%;
+         margin-right: 2%;
+         /* margin-top: 50px; */
+         /* background-color: pink; */
+         text-align: center;
+     }
+     .err1{
+        font-weight: bold;
+        font-size: 60px;
+    }
+    .err2{
+        font-size:30px;
+    }
+    .err3{
+        margin-top: 30px;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+}

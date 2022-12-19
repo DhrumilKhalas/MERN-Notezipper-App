@@ -1,0 +1,15 @@
+
+.noteacccontent{
+    margin-top: 10px;
+}
+.noteacccreatedat{
+    margin-top: 20px;
+    font-size: 14px;
+    color:darkgrey
+}
+.noteaccbtns{
+    margin-top: 5px;
+    display: flex;
+    gap: 6px;
+}
+

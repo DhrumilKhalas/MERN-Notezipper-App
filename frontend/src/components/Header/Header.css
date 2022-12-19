@@ -1,0 +1,11 @@
+@media only screen and (min-width:250px) and (max-width:520px) {
+    .headermain{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        /* background-color: teal; */
+    }
+    .header1{
+        padding-top: 15px;
+    }
+}
