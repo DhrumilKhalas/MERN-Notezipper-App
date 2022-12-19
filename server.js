@@ -19,11 +19,11 @@ app.use("/api/users", userRouter)
 app.use("/api/notes", notesRouter)
 
 // serving the frontend
-app.use(express.static(path.join(__dirname, "../frontend/build")))
+app.use(express.static(path.join(__dirname, "./frontend/build")))
 
 app.get("*", function(_,res) {
     res.sendFile(
-        path.join(__dirname, "../frontend/build/index.html"),
+        path.join(__dirname, "./frontend/build/index.html"),
         function(err){
             res.status(500).send(err)
         }
@@ -37,9 +37,8 @@ app.get("/", (req, res) => {
 app.use(notFound)
 app.use(errorHandler)
 
-
+connection()
 
 app.listen(PORT, () => {
-    connection()
     console.log(`Server is running on port: ${PORT}`)
 })
